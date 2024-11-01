@@ -1,0 +1,436 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-05 11:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: woo-admin-licenses.php:100 woo-admin-licenses.php:158
+#: woo-admin-licenses.php:479
+msgid "Woo Admin Licenses Options"
+msgstr ""
+
+#: woo-admin-licenses.php:106 woo-admin-licenses.php:242
+msgid "Allow Deactivation"
+msgstr ""
+
+#: woo-admin-licenses.php:108 woo-admin-licenses.php:243
+msgid "Allow your customers to deactivate the software"
+msgstr ""
+
+#: woo-admin-licenses.php:118 woo-admin-licenses.php:301
+#: woo-admin-licenses.php:1031 woo-admin-licenses.php:1174
+msgid "Expiry days"
+msgstr ""
+
+#: woo-admin-licenses.php:119 woo-admin-licenses.php:292
+#: woo-admin-licenses.php:302 woo-admin-licenses.php:1018
+#: woo-admin-licenses.php:1038 woo-admin-licenses.php:1161
+#: woo-admin-licenses.php:1175
+msgid "Unlimited"
+msgstr ""
+
+#: woo-admin-licenses.php:121 woo-admin-licenses.php:304
+msgid "Number of days when software will expire."
+msgstr ""
+
+#: woo-admin-licenses.php:179 woo-admin-licenses.php:208
+msgid "Software"
+msgstr ""
+
+#: woo-admin-licenses.php:209
+msgid ""
+"Software add-on hack for variable products. Enable this option if this is "
+"software (and you want to manage license keys)"
+msgstr ""
+
+#: woo-admin-licenses.php:251
+msgid "Product ID"
+msgstr ""
+
+#: woo-admin-licenses.php:252
+msgid "e.g. SOFTWARE1"
+msgstr ""
+
+#: woo-admin-licenses.php:254
+msgid "This ID is used for the license key API."
+msgstr ""
+
+#: woo-admin-licenses.php:261
+msgid "License key prefix"
+msgstr ""
+
+#: woo-admin-licenses.php:262
+msgid "N/A"
+msgstr ""
+
+#: woo-admin-licenses.php:264
+msgid "Optional prefix for generated license keys."
+msgstr ""
+
+#: woo-admin-licenses.php:271
+msgid "Secret key"
+msgstr ""
+
+#: woo-admin-licenses.php:272
+msgid "any random string"
+msgstr ""
+
+#: woo-admin-licenses.php:274
+msgid "Secret product key to use for API."
+msgstr ""
+
+#: woo-admin-licenses.php:281 woo-admin-licenses.php:716
+msgid "Version"
+msgstr ""
+
+#: woo-admin-licenses.php:282
+msgid "e.g. 1.0"
+msgstr ""
+
+#: woo-admin-licenses.php:284
+msgid "Version number for the software."
+msgstr ""
+
+#: woo-admin-licenses.php:291
+msgid "Activation limit"
+msgstr ""
+
+#: woo-admin-licenses.php:294
+msgid "Amount of activations possible per license key."
+msgstr ""
+
+#: woo-admin-licenses.php:312
+msgid "Upgradable product"
+msgstr ""
+
+#: woo-admin-licenses.php:315
+msgid "Name of the product which can be upgraded."
+msgstr ""
+
+#: woo-admin-licenses.php:322
+#, php-format
+msgid "Upgrade Price (%s)"
+msgstr ""
+
+#: woo-admin-licenses.php:323
+msgid "e.g. 10.99"
+msgstr ""
+
+#: woo-admin-licenses.php:325
+msgid "Users with a valid upgrade key will be able to pay this amount."
+msgstr ""
+
+#: woo-admin-licenses.php:333
+msgid "Valid upgrade keys"
+msgstr ""
+
+#: woo-admin-licenses.php:336
+msgid "A comma separated list of keys which can be upgraded."
+msgstr ""
+
+#: woo-admin-licenses.php:343
+msgid "Used upgrade keys"
+msgstr ""
+
+#: woo-admin-licenses.php:346
+msgid ""
+"A comma separated list of keys which have been used for an upgrade already."
+msgstr ""
+
+#: woo-admin-licenses.php:421
+msgid "Settings"
+msgstr ""
+
+#: woo-admin-licenses.php:422
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: woo-admin-licenses.php:444
+msgid "Settings saved."
+msgstr ""
+
+#: woo-admin-licenses.php:495
+msgid "Show “license keys table” in the account page"
+msgstr ""
+
+#: woo-admin-licenses.php:499
+msgid "Show “variables” at “license keys table” in the account page"
+msgstr ""
+
+#: woo-admin-licenses.php:503
+msgid "Show “Deactivation” at freeware"
+msgstr ""
+
+#: woo-admin-licenses.php:507
+msgid "Show “Deactivation” at paid software"
+msgstr ""
+
+#: woo-admin-licenses.php:511
+msgid "Use Software Add-On Hacks - see *)"
+msgstr ""
+
+#: woo-admin-licenses.php:515
+msgid "Allow “Activation reset” at Software Add-On"
+msgstr ""
+
+#: woo-admin-licenses.php:519
+msgid ""
+"*) Overrides functions at simple and variable products and API functions: "
+"“deactivation”, “activation_reset” and “check”"
+msgstr ""
+
+#: woo-admin-licenses.php:588
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">%s</a> has following plugins for you:"
+msgstr ""
+
+#: woo-admin-licenses.php:597
+msgid ""
+"This WooCommerce plugin prevents a user from being able to purchase a "
+"downloadable product that they already own. In place of the “Add to Basket” "
+"button on the product page, a message will display informing the user they "
+"already own the item, and links to download the linked files are provided "
+"there."
+msgstr ""
+
+#: woo-admin-licenses.php:606
+msgid "Your donation helps us make great products"
+msgstr ""
+
+#: woo-admin-licenses.php:646
+msgid "License Keys"
+msgstr ""
+
+#: woo-admin-licenses.php:682
+msgid ""
+"Unable to deactivate at this time. If this error persist, please contact us. "
+"Thank you!"
+msgstr ""
+
+#: woo-admin-licenses.php:685
+#, php-format
+msgid "<p>You have successfully deactivated %s for <strong>%s</strong></p>"
+msgstr ""
+
+#: woo-admin-licenses.php:696
+#, php-format
+msgid "Deactivation failed with error \"%s\""
+msgstr ""
+
+#: woo-admin-licenses.php:714
+msgid "Product"
+msgstr ""
+
+#: woo-admin-licenses.php:715
+msgid "Key"
+msgstr ""
+
+#: woo-admin-licenses.php:717
+msgid "Type"
+msgstr ""
+
+#: woo-admin-licenses.php:718
+msgid "Activations remaining"
+msgstr ""
+
+#: woo-admin-licenses.php:720
+msgid "Expiry date"
+msgstr ""
+
+#: woo-admin-licenses.php:801
+msgid "Activated Platform: "
+msgstr ""
+
+#: woo-admin-licenses.php:807
+msgid "Deactivate"
+msgstr ""
+
+#: woo-admin-licenses.php:809 includes/class-wc-software-api.php:72
+#: includes/requests/class-wc-deactivation-request.php:31
+msgid "This version cannot be deactivated"
+msgstr ""
+
+#: woo-admin-licenses.php:821
+msgid "Software expired"
+msgstr ""
+
+#: woo-admin-licenses.php:849
+msgid "You have no licences."
+msgstr ""
+
+#: woo-admin-licenses.php:885
+msgid "Software License Keys"
+msgstr ""
+
+#: woo-admin-licenses.php:886
+msgid "Activations"
+msgstr ""
+
+#: woo-admin-licenses.php:1000 woo-admin-licenses.php:1143
+msgid "Delete key"
+msgstr ""
+
+#: woo-admin-licenses.php:1001 woo-admin-licenses.php:1144
+msgid "Click to toggle"
+msgstr ""
+
+#: woo-admin-licenses.php:1002 woo-admin-licenses.php:1145
+#, php-format
+msgid "Product: %s, version %s"
+msgstr ""
+
+#: woo-admin-licenses.php:1009 woo-admin-licenses.php:1152
+msgid "License Key"
+msgstr ""
+
+#: woo-admin-licenses.php:1013 woo-admin-licenses.php:1156
+msgid "Activation Email"
+msgstr ""
+
+#: woo-admin-licenses.php:1017
+msgid "Activation Limit"
+msgstr ""
+
+#: woo-admin-licenses.php:1023 woo-admin-licenses.php:1166
+msgid "Software Product ID"
+msgstr ""
+
+#: woo-admin-licenses.php:1027 woo-admin-licenses.php:1170
+msgid "Software Version"
+msgstr ""
+
+#: woo-admin-licenses.php:1051
+msgid "Choose a software product&hellip;"
+msgstr ""
+
+#: woo-admin-licenses.php:1099
+msgid " (Child @ "
+msgstr ""
+
+#: woo-admin-licenses.php:1107
+msgid "Add License Key"
+msgstr ""
+
+#: woo-admin-licenses.php:1160
+msgid "Activations Remaining"
+msgstr ""
+
+#: woo-admin-licenses.php:1195
+msgid "Are you sure you want to delete this license key?"
+msgstr ""
+
+#: woo-admin-licenses.php:1447
+#, php-format
+msgid ""
+"Sorry, <strong>woo-admin-licenses</strong> requires WordPress %s or higher. "
+"Please upgrade your WordPress setup"
+msgstr ""
+
+#: woo-admin-licenses.php:1453
+#, php-format
+msgid ""
+"Sorry, <strong>woo-admin-licenses</strong> requires WooCommerce to be "
+"installed and activated first. Please <a href=\"%s\">install WooCommerce</a>."
+msgstr ""
+
+#: woo-admin-licenses.php:1459
+#, php-format
+msgid ""
+"Sorry, <strong>woo-admin-licenses</strong> requires WooCommerce %s or higher."
+" Please update WooCommerce for woo-admin-licenses to work."
+msgstr ""
+
+#: woo-admin-licenses.php:1465
+#, php-format
+msgid ""
+"Sorry, <strong>woo-admin-licenses</strong> requires WooCommerce Software Add-"
+"on %s or higher to be installed and activated first."
+msgstr ""
+
+#: includes/class-wc-software-api.php:24
+msgid "Invalid API Request"
+msgstr ""
+
+#: includes/class-wc-software-api.php:27
+msgid "No API Request Made"
+msgstr ""
+
+#: includes/class-wc-software-api.php:57
+msgid "Invalid License Key"
+msgstr ""
+
+#: includes/class-wc-software-api.php:60
+msgid "Software has been deactivated"
+msgstr ""
+
+#: includes/class-wc-software-api.php:63
+msgid "Exceeded maximum number of activations"
+msgstr ""
+
+#: includes/class-wc-software-api.php:66
+msgid "Invalid Instance ID"
+msgstr ""
+
+#: includes/class-wc-software-api.php:69
+msgid "Invalid security key"
+msgstr ""
+
+#: includes/class-wc-software-api.php:75
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/class-wc-software-api.php:80
+msgid "No debug information available"
+msgstr ""
+
+#: includes/requests/class-wc-check-request.php:24
+#: includes/requests/class-wc-deactivation-request.php:14
+msgid "The email provided is invalid"
+msgstr ""
+
+#: includes/requests/class-wc-check-request.php:30
+#: includes/requests/class-wc-deactivation-request.php:19
+msgid "No matching license key exists"
+msgstr ""
+
+#: includes/requests/class-wc-check-request.php:42
+msgid "The purchase matching this product is not complete"
+msgstr ""
+
+#: includes/requests/class-wc-generate-key-request.php:55
+msgid "Non matching product_id and secret_key provided"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woo Admin Licenses"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Displays the end-users license keys in the user account and also if required "
+"in a table. For showing in a table, simply place a shortcode on a new page. "
+"Logged in users can access the license keys and deactivate any software they "
+"purchased. Requires WooCommerce Software Add-On"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/woo-admin-licenses/"
+msgstr ""
+
+#. Author of the plugin
+msgid "MCPat.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.mcpat.com"
+msgstr ""
